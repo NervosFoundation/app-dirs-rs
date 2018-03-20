@@ -1,7 +1,7 @@
 extern crate xdg;
+use self::xdg::BaseDirectories as Xdg;
 use AppDataType::*;
 use common::*;
-use self::xdg::BaseDirectories as Xdg;
 use std::path::PathBuf;
 
 pub const USE_AUTHOR: bool = false;

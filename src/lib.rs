@@ -41,8 +41,8 @@ pub use utils::*;
 
 #[cfg(test)]
 mod tests {
-    use AppDataType::*;
     use super::*;
+    use AppDataType::*;
     #[test]
     fn it_works() {
         let info = AppInfo {

@@ -17,10 +17,10 @@
 extern crate ole32;
 extern crate shell32;
 extern crate winapi;
-use AppDataType::*;
-use common::*;
 use self::shell32::SHGetKnownFolderPath;
 use self::winapi::{GUID, PWSTR};
+use AppDataType::*;
+use common::*;
 use std::ffi::OsString;
 use std::os::windows::ffi::OsStringExt;
 use std::path::PathBuf;
